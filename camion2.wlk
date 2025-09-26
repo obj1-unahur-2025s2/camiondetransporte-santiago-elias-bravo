@@ -1,8 +1,9 @@
-import cosas.*
+import cosas2.*
 object camion {
     const carga = []
     method cargar(unaCosa) {
       carga.add(unaCosa)
+      unaCosa.consecuenciasDeLaCarga()
     }
     method descargar(unaCosa) {
       carga.remove(unaCosa)

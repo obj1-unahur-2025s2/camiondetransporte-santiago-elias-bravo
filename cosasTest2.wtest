@@ -1,5 +1,5 @@
-import cosas.*
-import camion.*
+import cosas2.*
+import camion2.*
 
 describe "test de un par de cosas" {
 
